@@ -4,7 +4,7 @@ License: (MIT) Copyright (C) 2013 Phil Chen.
 
 -DESCRIPTION:
 
-A Template To Show Ruby Sinatra Functionality And Quickly Get Started on a Project
+A Template To Show Ruby Sinatra Functionality And Get You Quickly Started on a Project
 
 This project was made to save time in learning Sinatra by seeing some examples and having a template to work from.
 This is not a repalcement for reading the Sinatra or other gem documenation but to help provide examples and
