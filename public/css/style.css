@@ -1,3 +1,4 @@
+
 .flash-notice {
   width: 600px;
   padding: 5px;
@@ -5,5 +6,5 @@
   margin: 20px;
   background: #ffcccc;
   color: #903;
-  border: 1px solid #903;
+  border: 2px solid #903;
 }

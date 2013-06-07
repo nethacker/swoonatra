@@ -1,4 +1,5 @@
 #License: (MIT), Copyright (C) 2013 Author Phil Chen.
+#
 helpers do
   def current_user
     @current_user ||= Users.first(:id => session[:user]) if session[:user]
