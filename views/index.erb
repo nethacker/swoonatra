@@ -1,0 +1,13 @@
+<h1>Welcome to Swoonatra!</h1>
+<b>The date and time is currently <%= @time %> UTC</b>
+<br>
+<br>
+Swoonatra is a template to help you get started using Ruby Sinatra and get rolling on your projects quickly. It is scaffolding or place holder code to help you see how you would code some basic functionality. The goal is to help show basic website features and methods using Sinatra.
+<br>
+<% if current_user %>
+  <p>Logged in as <%= current_user.email %> | <a href="/logout">logout</a></p>
+<% else %>
+  <p><a href="/login">login</a> | <a href="/join">join</a> | <a href="/password-request">forgot password</a></p>
+<% end %>
+<br>
+<%= erb :partial %>

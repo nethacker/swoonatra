@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Swoonatra</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="/javascript/jquery-1.10.0.min.js"></script>
+</head>
+<body>
+
+<% if flash[:notice] %>
+  <div id='flash-notice' class='flash-notice'>
+  <%= flash[:notice] %>
+</div>
+<% end %>
+
+<script>
+  setTimeout(function(){
+  $('#flash-notice').fadeOut(2000);
+  },2000);
+</script>
+
+<section>
+  <%= yield %>
+</section>
+
+</body>
+</html>
