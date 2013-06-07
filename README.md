@@ -32,7 +32,7 @@ sinatra-flash (0.3.0)
 
 DATABASE:
 
-MySQL
+MySQL - Just need a database and user with access.
 
 
 -STRUCTURE:
@@ -46,4 +46,22 @@ MySQL
     views
     public
     unicorn
+    
+-NOTES:
+
+ You will want to clone this to your server install the prerequisites and change a few things below:
+ 
+-In the model directory you will want to edit the model.rb file to include your dbuser/password and dbname at the top
+ also Uncomment DataMapper.auto_migrate! on first start of your Unicorn server to create the DB then comment that line
+ out again.
+
+-In the routes directory you will want to edit the user.rb file change the @reset_path to have your hostname of your
+ server. Also under the Pony.mail setting change the from email to yours there are two places for that.
+
+-In the routes directory you will want to edit the contact.rb file under Pony.mail settings change the from email to
+ yours.
+ 
+-To start unicorn go into the root of the directory of Swoonatra and use this command: unicorn -c unicorn.conf -D
+
+-When you make changes to the routes you will need to killall unicorn and issue the start command again to see them
 
