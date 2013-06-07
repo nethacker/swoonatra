@@ -34,6 +34,7 @@ DATABASE:
 
 MySQL
 
+'''
 -STRUCTURE:
 
 app.rb
@@ -74,3 +75,4 @@ public  --> css
 unicorn --> log
         --> pids
         --> sockets
+'''
