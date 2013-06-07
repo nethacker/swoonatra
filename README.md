@@ -34,45 +34,16 @@ DATABASE:
 
 MySQL
 
-'''
+
 -STRUCTURE:
 
-app.rb
-config.ru
-unicorn.conf
+    app.rb
+    config.ru
+    unicorn.conf
+    helpers
+    model
+    routes
+    views
+    public
+    unicorn
 
-helpers --> init.rb
-        --> helpers.rb
-
-model   --> init.rb
-        --> model.rb
-
-routes --> init.rb
-       --> contact.rb
-       --> error.rb
-       --> flash.rb
-       --> index.rb
-       --> multipath.rb
-       --> user.rb
-
-views  --> 404.erb
-       --> contact.erb
-       --> custom_layout.erb
-       --> flash.erb
-       --> general_layout.erb
-       --> index.erb
-       --> join.erb
-       --> login.erb
-       --> partial.erb
-       --> passwordrequest.erb
-
-public  --> css
-            \--> style.css
-        --> images
-        --> javascript
-            \--> jquery-1.10.0.min.js
-
-unicorn --> log
-        --> pids
-        --> sockets
-'''
