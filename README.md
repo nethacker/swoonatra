@@ -26,13 +26,14 @@ RUBY GEMS:
 sinatra (1.4.2)
 unicorn (4.6.2)
 data_mapper (1.2.0)
+dm-mysql-adapter (1.2.0)
 bcrypt-ruby (3.0.1)
 pony (1.4.1)
 sinatra-flash (0.3.0)
 
 DATABASE:
 
-MySQL - Just need a database and user with access.
+MySQL and MySQL-Devel: Just need a database and user with access.
 
 
 -STRUCTURE:
