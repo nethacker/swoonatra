@@ -4,7 +4,7 @@ License: (MIT) Copyright (C) 2013 Phil Chen.
 
 -DESCRIPTION:
 
-A Template To Show Ruby Sinatra Functionality And Quickly Get Started on a Project
+A Template To Show Ruby Sinatra Functionality And Get You Quickly Started on a Project
 
 This project was made to save time in learning Sinatra by seeing some examples and having a template to work from.
 This is not a repalcement for reading the Sinatra or other gem documenation but to help provide examples and
@@ -26,13 +26,14 @@ RUBY GEMS:
 sinatra (1.4.2)
 unicorn (4.6.2)
 data_mapper (1.2.0)
+dm-mysql-adapter (1.2.0)
 bcrypt-ruby (3.0.1)
 pony (1.4.1)
 sinatra-flash (0.3.0)
 
 DATABASE:
 
-MySQL - Just need a database and user with access.
+MySQL and MySQL-Devel: Just need a database and user with access.
 
 
 -STRUCTURE:
