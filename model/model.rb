@@ -14,8 +14,6 @@ class Users
   property :password_salt,  Text
   property :token,          String
 
-  validates_presence_of         :password
-  validates_confirmation_of     :password
   validates_length_of           :password, :min => 6
 end
 
