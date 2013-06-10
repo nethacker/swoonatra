@@ -13,8 +13,6 @@ class Users
   property :password_hash,  Text
   property :password_salt,  Text
   property :token,          String
-
-  validates_length_of           :password, :min => 6
 end
 
 class Profiles
