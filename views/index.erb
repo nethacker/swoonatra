@@ -10,6 +10,7 @@ This project was made to save time in learning Sinatra by seeing some examples a
 <br>
 The code covers usages of DataMapper an Object Relational Mapper written in Ruby using MySQL with a foreign key relationship. Also user signup, signin, password reset, session handling. For design the code shows usage of url routing, views, partial views, layouts, error handling, flash messaging. Also included is samples of emailing data, and there is a basic Unicorn web server configuration. Everything is layed out with a MVC structure. Hope this helps!
 <br>
+<br>
 <% if current_user %>
   <p>Logged in as <%= current_user.email %> | <a href="/logout">logout</a></p>
 <% else %>

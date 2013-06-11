@@ -1,5 +1,5 @@
 #License: (MIT), Copyright (C) 2013 Author Phil Chen.
-#
+
 get "/join/?" do
   erb :join, :layout => :general_layout
 end
