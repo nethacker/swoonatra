@@ -2,7 +2,11 @@
 <b>The date and time is currently <%= @time %> UTC</b>
 <br>
 <br>
-Swoonatra is a template to help you get started using Ruby Sinatra and get rolling on your projects quickly. It is scaffolding or place holder code to help you see how you would code some basic functionality. The goal is to help show basic website features and methods using Sinatra.
+A Template To Show Ruby Sinatra Functionality And Get You Quickly Started on a Project
+<br>
+This project was made to save time in learning Sinatra by seeing some examples and having a template to work from. This is not a repalcement for reading the Sinatra or other gem documenation but to help provide examples and a structure.
+<br>
+The code covers usages of DataMapper an Object Relational Mapper written in Ruby using MySQL with a foreign key relationship. Also user signup, signin, password reset, session handling. For design the code shows usage of url routing, views, partial views, layouts, error handling, flash messaging. Also included is samples of emailing data, and there is a basic Unicorn web server configuration. Everything is layed out with a MVC structure. Hope this helps!
 <br>
 <% if current_user %>
   <p>Logged in as <%= current_user.email %> | <a href="/logout">logout</a></p>

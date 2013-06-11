@@ -62,7 +62,7 @@ Pony.mail({
   :from => 'from@email.com',
   :to => (params[:email]),
   :subject => 'Password Reset Request',
-  :body => @reset_path,
+  :body => "Click to Reset Your Password: #{@reset_path}",
   :via => :sendmail,
   :via_options => {
   :location  => '/usr/sbin/sendmail',
@@ -88,8 +88,8 @@ get "/reset" do
 Pony.mail({
   :from => 'from@email.com',
   :to => (params[:email]),
-  :subject => 'Password Reset',
-  :body => @random_password,
+  :subject => 'Your Password',
+  :body => "Your New Password: #{@random_password}",
   :via => :sendmail,
   :via_options => {
   :location  => '/usr/sbin/sendmail',
