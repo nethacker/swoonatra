@@ -1,6 +1,6 @@
 #License: (MIT), Copyright (C) 2013 Author Phil Chen.
 #
-DataMapper.setup(:default, 'mysql://dbusername:dbpassword!@localhost/dbnamehere')
+DataMapper.setup(:default, 'mysql://dbusername:dbpassword@localhost/dbnamehere')
 
 class Users 
   include DataMapper::Resource
