@@ -15,6 +15,8 @@ relationship. Also user signup, signin, password reset, session handling. For de
 url routing, views, partial views, layouts, error handling, flash messaging. Also included is samples of emailing data,
 and there is a basic Unicorn web server configuration. Everything is laid out with a MVC structure. Hope this helps!
 
+How To Blog: http://www.philchen.com/2013/06/14/how-to-make-a-ruby-web-application-using-sinatra-with-the-help-of-swoonatra
+
 -PREREQUISITE / WORKS WITH:
 
 RUBY:
